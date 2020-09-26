@@ -563,7 +563,7 @@ contract LPTokenWrapper {
  * Beeswap-HT Pool
  */
 contract BeeswapHTPool is LPTokenWrapper, IRewardDistributionRecipient {
-    IERC20 public beeswap = IERC20(0x1A754244EC6C879C38dD4a774e3979d77D414Bc1);
+    IERC20 public beeswap = IERC20(0x7CBEb84402b81DFC4E85b6Bc9D04FeAeecCFF26E);
     uint256 public constant DURATION = 7 days;
 
     uint256 public constant startTime = 1598534100; //utc+8 2020 07-28 0:00:00

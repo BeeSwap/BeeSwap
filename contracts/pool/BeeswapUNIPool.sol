@@ -565,7 +565,7 @@ contract LPTokenWrapper {
  * Beeswap-UNI Pool
  */
 contract BeeswapUNIPool is LPTokenWrapper, IRewardDistributionRecipient {
-    IERC20 public beeswap = IERC20(0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984);
+    IERC20 public beeswap = IERC20(0x7CBEb84402b81DFC4E85b6Bc9D04FeAeecCFF26E);
     uint256 public constant DURATION = 7 days;
 
     uint256 public constant startTime = 1598534100; //utc+8 2020 07-28 0:00:00
